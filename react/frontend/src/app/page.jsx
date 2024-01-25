@@ -17,7 +17,7 @@ export default function Home() {
         onChange={(e) => setInputValue(e.target.value)}
       />
       <button onClick={handler} className="btn">
-        add comment
+        add
       </button>
       <div>
         {comment.map((el, index) => (
