@@ -279,17 +279,28 @@
 // }
 // console.log("hamgiin baga too  "+ minNum + " tooni index n " + minNumIndex);
 // <--------------------------------------->
-function sayHello() {
-    let friend = "bat";
-    how()
-function hi() {
-    console.log("hi");
-}
-    function how() {
-        console.log("how do you do " + friend);
-        hi()
-    }
-}
-sayHello()
+// function sayHello() {
+//     let friend = "bat";
+//     how()
+//     function hi() {
+//         console.log("hi");
+//     }
+//     function how() {
+//         console.log("how do you do " + friend);
+//         hi()
+//     }
+// }
+// sayHello()
 // <--------------------------------------->
-LockManager
+// function sum(a, b, c) {
+//     return a + b + c
+// }
+
+// index.js
+function plus(a, b, c) {
+    return a + b == c;
+}
+module.exports = { plus };
+
+
+// <--------------------------------------->
